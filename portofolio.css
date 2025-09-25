@@ -1,0 +1,151 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #87cefa;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#darkModeToggle {
+  background: white;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #b0e0e6, #87cefa);
+  color: #333;
+}
+
+.hero .highlight {
+  color: #004080;
+  font-weight: bold;
+}
+
+.typing-text {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #444;
+}
+
+/* About */
+.about {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-content img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #87cefa;
+}
+
+/* Projects */
+.projects {
+  padding: 60px 20px;
+  background: #e6f2ff;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border: 2px solid #87cefa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact */
+.contact {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact-info {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+  justify-content: center;
+}
+
+.contact-info img.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Footer */
+footer {
+  background: #87cefa;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
